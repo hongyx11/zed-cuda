@@ -1,0 +1,23 @@
+id = "cuda"
+name = "CUDA"
+version = "0.1.0"
+schema_version = 1
+authors = ["Yuxi Hong <yuxi.hong.research@gmail.com>"]
+description = "Enhances Zed’s CUDA support with syntax highlighting and clangd integration."
+repository = "https://github.com/hongyx11/zed-cuda"
+languages = ["languages/cuda"]
+
+[grammars.cuda]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-cuda"
+rev = "d58080a327756e4d1d16ec329ba7cb2048f6c6cd"
+
+[lib]
+kind = "Rust"
+version = "0.7.0"
+
+[language_servers.cuda-clangd]
+name = "CUDA clangd"
+languages = ["CUDA"]
+
+[language_servers.cuda-clangd.language_ids]
+CUDA = "cuda"

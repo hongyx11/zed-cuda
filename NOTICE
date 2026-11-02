@@ -1,0 +1,12 @@
+CUDA for Zed
+Copyright (C) 2026 Yuxi Hong
+
+The CUDA language configuration and C++ base queries are adapted from Zed:
+https://github.com/zed-industries/zed/tree/c4273271092b0287f7d181f616bd5171e0a2f70c/crates/grammars/src/cpp
+Copyright Zed Industries, Inc. and contributors.
+They are distributed with this extension under GPL-3.0-or-later; see LICENSE.
+
+The CUDA grammar is built from tree-sitter-cuda, revision:
+d58080a327756e4d1d16ec329ba7cb2048f6c6cd
+https://github.com/tree-sitter-grammars/tree-sitter-cuda
+Its MIT license is reproduced in LICENSE-tree-sitter-cuda.
